@@ -43,4 +43,4 @@ def test_working():
         assert result.text == 'Incorrect!'
     else:
         assert result.text == 'Correct!'
-        driver.close()
+    driver.close()
